@@ -1,0 +1,87 @@
+<section class="navbar flex justify-between py-4 max-w-7xl mx-auto">
+    <div class="navbarContainer pr-12">
+      <ul class="flex justify-between items-center">
+        <li class="navBarLogo mr-12">
+          <a routerLink="/"> <img  src="/assets/img/Logo.png" alt="Logo" /> </a>
+        </li>
+        <li>
+          <a routerLink= "/services" class="navlinks mr-12 text-sm">Services</a>
+          <ul class="dropdown">
+            <li><a class="navlinks text-sm " routerLink="/services">Paver Installation </a></li>
+            <li><a class="navlinks text-sm" routerLink="/services">Paver Installation</a></li>
+            <li ><a class="navlinks text-sm" routerLink="/services">Paver Installation</a></li>
+            <li ><a class="navlinks text-sm" routerLink="/services">Paver Installation</a></li>
+           </ul>
+        </li>
+        <li>
+          <a routerLink="/about" class="navlinks mr-12 text-sm">About Us</a>
+        </li>
+        <li>
+          <a routerLink="/contact" class="navlinks mr-12 text-sm"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="flex items-center justify-end">
+      <p class="navphone text-sm">+92 3213412412</p>
+    </div>
+  </section>
+  <section class="about ">
+    <div class="aboutContainer overflow-x-hidden	 mx-auto my-16">
+      <img class="leafImg" src="/assets/img/leaf.png" />
+      <h3 class="w-4/5 text-5xl aboutHeading">
+        Sed ut perspiciatis unde <span>omnis iste</span> natus error sit
+        voluptatem accusantium doloremque <span>laudantium</span>, totam rem
+        aperiam, eaque ipsa quae ab illo.
+      </h3>
+    </div>
+    <div class="w-4/5 mx-auto mb-20 flex justify-center">
+      <button class="aboutBtn text-sm px-8 py-3" routerLink="/schedule">
+        Schedule consultation
+      </button>
+    </div>
+    <div class="w-4/5 mb-20 mx-auto">
+      <img class="aboutImg" src="/assets/img/aboutImg.png">
+    </div>
+  </section>
+ 
+
+  <section class="footer">
+    <div class="footerContainer flex justify-center mx-auto max-w-7xl">
+      <div class="flex justify-between w-4/12 footerLinks p-16">
+        <div><img routerLink="/" width="45%" src="assets/img/Logo.png" /></div>
+        <div class="flex flex-col">
+          <a class="footerlink" routerLink="/blogs">Blogs</a>
+          <a class="footerlink mt-6" routerLink="/about">About</a>
+          <a class="footerlink mt-6" routerLink="/contact">Contact</a>
+          <a class="footerlink mt-6" routerLink="/schedule">Book Schedule</a>
+        </div>
+      </div>
+      <div class="contact py-16 px-8 w-3/12 flex justify-center">
+        <div>
+          <p class="contactHeading">CONTACT</p>
+          <p class="contactInfo mt-10">2414 Bear Montains</p>
+          <p class="contactInfo mt-6">Zachery Chester</p>
+          <p class="contactInfo mt-6">Bahamas</p>
+          <p class="contactInfo mt-6">+12 345656777</p>
+        </div>
+      </div>
+      <div class="news p-16 flex w-4/12 flex flex-col">
+        <p class="newsHeading">NEWSLETTER</p>
+        <p class="newsInfo mt-10 w-3/4 leading-10">
+          Subscribe to get more updates on our new landscaping projects.
+        </p>
+        <div class="flex mt-8 items-center">
+          <input
+            placeholder="Enter Email"
+            class="newsInput py-3 px-7 text-sm"
+          />
+          <img class="newsArrowBtn" src="assets/img/ArrowBtn.png" />
+        </div>
+      </div>
+    </div>
+    <div class="px-32 py-8">
+      <p class="text-base copyright">Copyright @ 2022 malik</p>
+    </div>
+  </section>

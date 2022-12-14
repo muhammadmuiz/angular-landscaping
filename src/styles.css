@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+
+:root {
+    --font-primary:'Merriweather', serif;
+    --font-secondary: 'Lato', sans-serif;
+    --font-third: :'Poppins', sans-serif;
+
+    --clr-primary1:#1CC660;
+    --clr-primary2:#27A57F;
+    --clr-primary3:#1F8729;
+    --clr-primary4:#073A3D;
+
+    --clr-dark000:#051529;
+    --clr-dark100:#242A31;
+    --clr-dark200:#393E43;
+    --clr-dark300:#515559;
+    --clr-dark400:#6E7173;
+    --clr-dark700:#D4D4D4;
+    --clr-dark800:#ECECEC;
+    --clr-dark900:#F6F6F6;
+    --clr-dark500:#919294;
+  }
+
+  
+*{ 
+	box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;
+}
+body{
+    background-color:rgb(28, 198, 96,0.2);
+    font-family: var(--font-secondary);
+
+}
+body, ul, ol, dl {
+	margin: 0;
+}
+
+.navbar .navbarContainer .navBarLogo a img{
+  width: 105px;
+}
